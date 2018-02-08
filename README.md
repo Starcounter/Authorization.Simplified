@@ -1,6 +1,6 @@
-h1. This library provides [Starcounter Authorization Library](https://github.com/Starcounter/authorization) with support for [Simplified Data Model](https://github.com/StarcounterApps/Simplified)
+# This library provides [Starcounter Authorization Library](https://github.com/Starcounter/authorization) with support for [Simplified Data Model](https://github.com/StarcounterApps/Simplified)
 
-h2. Building and testing
+## Building and testing
 
 ```
 nuget restore
