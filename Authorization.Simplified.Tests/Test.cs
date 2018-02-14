@@ -7,7 +7,7 @@ using Xunit;
 namespace Authorization.Database.Tests
 {
     [Collection(nameof(TestContext))]
-    public class Class1
+    public class Test
     {
         [Fact]
         public async Task TestIfTestsTestTheTests()
@@ -22,16 +22,6 @@ namespace Authorization.Database.Tests
         private static int GetCurrentNumberOfItems()
         {
             return Db.SQL<FakeDbClass>($"select a from {typeof(FakeDbClass).FullName} a").Count();
-        }
-    }
-
-
-    public class OtherTests
-    {
-        [Fact]
-        public void TestZero()
-        {
-            
         }
     }
 
