@@ -6,12 +6,12 @@ using Starcounter.Internal;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Authorization.Database")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("Starcounter.Authorization.Simplified")]
+[assembly: AssemblyDescription("Simplified.Data.Model Support for Authorization Library")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Starcounter")]
-[assembly: AssemblyProduct("Authorization.Database")]
-[assembly: AssemblyCopyright("Copyright © Starcounter 2013")]
+[assembly: AssemblyProduct("Starcounter.Authorization.Simplified")]
+[assembly: AssemblyCopyright("Copyright © Starcounter 2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -34,7 +34,6 @@ using Starcounter.Internal;
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
 [assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("1.0.0.0")]
 
 // Assures the current assembly has a reference to the Starcounter
 // assembly. A reference to Starcounter is currently required for
